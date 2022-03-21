@@ -1,7 +1,0 @@
-{
-  "name": "docs",
-  "private": true,
-  "dependencies": {
-    "vuepress-theme-api": "file:.."
-  }
-}
