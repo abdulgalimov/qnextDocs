@@ -161,6 +161,7 @@ tags
 
 # VuePress build output
 docs/.vuepress/dist/
-docs
+/docs-src/
+/docs-test/
 
 .idea
