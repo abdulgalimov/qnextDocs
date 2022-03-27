@@ -19,17 +19,17 @@
     "url": "https://github.com/sqrthree/vuepress-theme-api/issues"
   },
   "directories": {
-    "doc": "docs"
+    "doc": "docs-src"
   },
   "main": "index.js",
   "scripts": {
     "dev": "npm run docs:dev",
-    "docs:dev": "vuepress dev docs --no-cache",
-    "docs:build": "npm run docs:clean && vuepress build docs",
-    "docs:serve": "serve --single docs/.vuepress/dist",
-    "docs:clean": "rimraf docs/.vuepress/dist",
+    "docs:dev": "vuepress dev docs-src --no-cache",
+    "docs:build": "npm run docs:clean && vuepress build docs-src",
+    "docs:serve": "serve --single docs-src/.vuepress/dist",
+    "docs:clean": "rimraf docs-src/.vuepress/dist",
     "lint": "eslint --ext .js,.vue ./",
-    "deploy": "npm run docs:build && gh-pages -d docs/.vuepress/dist",
+    "deploy": "npm run docs:build && gh-pages -d docs-src/.vuepress/dist",
     "test": "prettier --check '**/*.{js,vue}'"
   },
   "publishConfig": {
