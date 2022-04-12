@@ -163,5 +163,6 @@ tags
 docs/.vuepress/dist/
 /docs-src/
 /docs-test/
+/docs/
 
 .idea
