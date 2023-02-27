@@ -38,7 +38,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@vuepress/plugin-active-header-links": "~1.8.2",
+    "@vuepress/plugin-active-header-links": "~1.9.9",
     "@vuepress/plugin-last-updated": "~1.8.2",
     "axios": "~0.21.1",
     "vuepress-plugin-define": "~1.1.1",
